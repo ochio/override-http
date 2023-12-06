@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Override Http",
+  "version": "1.0.0",
+  "description": "別タブ遷移を検知します",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
