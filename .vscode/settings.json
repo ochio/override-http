@@ -6,6 +6,8 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
+  "flake8.args": ["--config=./.config/.flake8"],
+  "black-formatter.args": ["--config=./.config/.black"],
   "editor.insertSpaces": true,
   "editor.formatOnSave": true,
 }
