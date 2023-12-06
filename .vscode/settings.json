@@ -1,0 +1,11 @@
+{
+  "[python]": {
+    // VS Code のフォーマッターは無効にしておく
+    "editor.defaultFormatter": "ms-python.black-formatter",
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+}
