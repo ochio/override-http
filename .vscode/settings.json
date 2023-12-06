@@ -8,6 +8,7 @@
   },
   "flake8.args": ["--config=./.config/.flake8"],
   "black-formatter.args": ["--config=./.config/.black"],
+  "isort.args":["--settings-file=./.config/.isort.cfg"],
   "editor.insertSpaces": true,
   "editor.formatOnSave": true,
-}
+  }  

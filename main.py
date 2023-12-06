@@ -36,7 +36,8 @@ def main():
     httpd.serve_forever()
 
     open_with_default_browser(
-        default_browser_bundle_id=default_browser_bundle_id, url="https://github.com/ochio"
+        default_browser_bundle_id=default_browser_bundle_id,
+        url="https://github.com/ochio",
     )
 
 
