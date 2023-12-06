@@ -1,8 +1,8 @@
 import subprocess
+from http.server import BaseHTTPRequestHandler, HTTPServer
+
 import browsers
 from browsers.osx import OSX_BROWSER_BUNDLE_LIST
-
-from http.server import HTTPServer, BaseHTTPRequestHandler
 
 
 class CustomHTTPRequestHandler(BaseHTTPRequestHandler):
