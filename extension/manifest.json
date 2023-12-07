@@ -8,5 +8,9 @@
       "matches": ["<all_urls>"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["http://localhost:8080/"]
 }
