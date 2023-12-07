@@ -1,0 +1,15 @@
+{
+  "name": "override-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fix:code": "biome lint --apply ./extension"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^1.4.1"
+  }
+}

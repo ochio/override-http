@@ -1,14 +1,30 @@
 {
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[python]": {
-    // VS Code のフォーマッターは無効にしておく
     "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports.biome": true,
+    "quickfix.biome": true
   },
   "flake8.args": ["--config=./.config/.flake8"],
   "black-formatter.args": ["--config=./.config/.black"],
-  "isort.args":["--settings-file=./.config/.isort.cfg"],
-  "editor.insertSpaces": true,
-  "editor.formatOnSave": true,
-  }  
+  "isort.args": ["--settings-file=./.config/.isort.cfg"]
+}
